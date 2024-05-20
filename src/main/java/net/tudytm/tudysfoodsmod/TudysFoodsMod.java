@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 
 @Mod(TudysFoodsMod.MOD_ID)
 public class TudysFoodsMod {
-    public static final String MOD_ID = "tudysfoodsmod";
+    public static final String MOD_ID = "additionalfoodsmod";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
