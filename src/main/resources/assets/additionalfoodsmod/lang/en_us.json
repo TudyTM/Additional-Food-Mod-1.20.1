@@ -12,5 +12,7 @@
   "item.additionalfoodsmod.pickles": "Pickles",
   "item.additionalfoodsmod.rice": "Rice",
   "item.additionalfoodsmod.strawberries": "Strawberries",
-  "item.additionalfoodsmod.tomato": "Tomato"
+  "item.additionalfoodsmod.tomato": "Tomato",
+
+  "creativetab.additional_food": "Additional Foods"
 }

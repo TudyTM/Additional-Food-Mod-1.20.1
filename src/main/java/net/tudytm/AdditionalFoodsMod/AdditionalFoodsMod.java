@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tudytm.AdditionalFoodsMod.item.ModCreativeModTabs;
 import net.tudytm.AdditionalFoodsMod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -20,10 +21,13 @@ import org.slf4j.Logger;
 public class AdditionalFoodsMod {
     public static final String MOD_ID = "additionalfoodsmod";
 
+
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public AdditionalFoodsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
@@ -39,24 +43,7 @@ public class AdditionalFoodsMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SAPPHIRE);
-            event.accept(ModItems.CUCUMBER);
-            event.accept(ModItems.TOMATO);
-            event.accept(ModItems.AVOCADO);
-            event.accept(ModItems.ONION);
-            event.accept(ModItems.BELL_PEPPER);
-            event.accept(ModItems.GARLIC);
-            event.accept(ModItems.LEMON);
-            event.accept(ModItems.ORANGE);
-            event.accept(ModItems.PEACH);
-            event.accept(ModItems.PEAR);
-            event.accept(ModItems.PICKLES);
-            event.accept(ModItems.RICE);
-            event.accept(ModItems.STRAWBERRIES);
 
-
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
