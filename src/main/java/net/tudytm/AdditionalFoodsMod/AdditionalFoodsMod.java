@@ -44,6 +44,7 @@ public class AdditionalFoodsMod {
             event.accept(ModItems.CUCUMBER);
             event.accept(ModItems.TOMATO);
             event.accept(ModItems.AVOCADO);
+            event.accept(ModItems.ONION);
 
         }
     }
