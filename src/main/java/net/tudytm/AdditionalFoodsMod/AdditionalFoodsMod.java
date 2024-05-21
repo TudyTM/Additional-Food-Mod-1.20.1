@@ -41,6 +41,10 @@ public class AdditionalFoodsMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.CUCUMBER);
+            event.accept(ModItems.TOMATO);
+            event.accept(ModItems.AVOCADO);
+
         }
     }
 
