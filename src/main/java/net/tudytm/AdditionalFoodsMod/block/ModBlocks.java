@@ -21,7 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, AdditionalFoodsMod.MOD_ID);
 
     public static final RegistryObject<Block> RICE_BLOCK = registerBlock("rice_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

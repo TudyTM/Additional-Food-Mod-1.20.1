@@ -14,5 +14,7 @@
   "item.additionalfoodsmod.strawberries": "Strawberries",
   "item.additionalfoodsmod.tomato": "Tomato",
 
-  "creativetab.additional_food": "Additional Foods"
+  "creativetab.additional_food": "Additional Foods",
+
+  "block.additionalfoodsmod.rice_block": "Block of Rice"
 }
