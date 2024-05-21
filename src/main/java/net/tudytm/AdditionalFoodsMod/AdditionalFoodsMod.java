@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.tudytm.AdditionalFoodsMod.block.ModBlocks;
 import net.tudytm.AdditionalFoodsMod.item.ModCreativeModTabs;
 import net.tudytm.AdditionalFoodsMod.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class AdditionalFoodsMod {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

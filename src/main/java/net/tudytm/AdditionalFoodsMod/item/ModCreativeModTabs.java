@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.tudytm.AdditionalFoodsMod.AdditionalFoodsMod;
+import net.tudytm.AdditionalFoodsMod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -30,6 +31,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PEAR.get());
                         pOutput.accept(ModItems.PICKLES.get());
                         pOutput.accept(ModItems.RICE.get());
+
+                        pOutput.accept(ModBlocks.RICE_BLOCK.get());
                     }))
                     .build());
 
