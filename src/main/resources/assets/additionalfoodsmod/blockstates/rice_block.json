@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
-      "model": "additionalfoodsmod:block/rice_block"
+    "axis=x": {
+      "model": "additionalfoodsmod:block/rice_block_side",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "additionalfoodsmod:block/rice_block_top"
+    },
+    "axis=z": {
+      "model": "additionalfoodsmod:block/rice_block_side",
+      "x": 90
     }
   }
 }
