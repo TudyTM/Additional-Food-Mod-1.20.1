@@ -21,6 +21,25 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ONION = ITEMS.register("onion",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BELL_PEPPER = ITEMS.register("bell_pepper",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GARLIC = ITEMS.register("garlic",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LEMON = ITEMS.register("lemon",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ORANGE = ITEMS.register("orange",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PEACH = ITEMS.register("peach",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PEAR = ITEMS.register("pear",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PICKLES = ITEMS.register("pickles",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RICE = ITEMS.register("rice",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STRAWBERRIES = ITEMS.register("strawberries",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

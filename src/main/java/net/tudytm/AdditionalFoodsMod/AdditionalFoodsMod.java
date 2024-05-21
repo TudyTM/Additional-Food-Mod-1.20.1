@@ -45,6 +45,16 @@ public class AdditionalFoodsMod {
             event.accept(ModItems.TOMATO);
             event.accept(ModItems.AVOCADO);
             event.accept(ModItems.ONION);
+            event.accept(ModItems.BELL_PEPPER);
+            event.accept(ModItems.GARLIC);
+            event.accept(ModItems.LEMON);
+            event.accept(ModItems.ORANGE);
+            event.accept(ModItems.PEACH);
+            event.accept(ModItems.PEAR);
+            event.accept(ModItems.PICKLES);
+            event.accept(ModItems.RICE);
+            event.accept(ModItems.STRAWBERRIES);
+
 
         }
     }
