@@ -41,6 +41,33 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
     public static final RegistryObject<Item> KNIFE = ITEMS.register("knife",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> AVOCADO_TREE_SAPPLING = ITEMS.register("avocado_tree_sappling",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> BELL_PEPPER_SEEDS = ITEMS.register("bell_pepper_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> LEMON_TREE_SAPPLING = ITEMS.register("lemon_tree_sappling",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> ONION_SEEDS = ITEMS.register("onion_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> ORANGE_TREE_SAPPLING = ITEMS.register("orange_tree_sappling",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> PEACH_TREE_SAPPLING = ITEMS.register("peach_tree_sappling",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> PEAR_TREE_SAPPLING = ITEMS.register("pear_tree_sappling",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> PICKLE_SEEDS = ITEMS.register("pickle_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> RICE_SEEDS = ITEMS.register("rice_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+    public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

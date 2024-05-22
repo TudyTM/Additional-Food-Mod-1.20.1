@@ -12,8 +12,22 @@
   "item.additionalfoodsmod.pickles": "Pickles",
   "item.additionalfoodsmod.rice": "Rice",
   "item.additionalfoodsmod.strawberries": "Strawberries",
+  "item.additionalfoodsmod.knife": "Knife",
   "item.additionalfoodsmod.tomato": "Tomato",
-  "item.additionalfoodsmod.tomato": "Knife",
+  "item.additionalfoodsmod.avocado_tree_sappling": "Avocado Tree Sappling",
+  "item.additionalfoodsmod.bell_pepper_seeds": "Bell Pepper Seeds",
+  "item.additionalfoodsmod.cucumber_seeds": "Cucumber Seeds",
+  "item.additionalfoodsmod.garlic_seeds": "Garlic Seeds",
+  "item.additionalfoodsmod.lemon_tree_sappling": "Lemon Tree Sappling",
+  "item.additionalfoodsmod.onion_seeds": "Onion Seeds",
+  "item.additionalfoodsmod.orange_tree_sappling": "Orange Tree Sappling",
+  "item.additionalfoodsmod.peach_tree_sappling": "Peach Tree Sappling",
+  "item.additionalfoodsmod.pear_tree_sappling": "Pear Tree Sappling",
+  "item.additionalfoodsmod.pickle_seeds": "Pickle Seeds",
+  "item.additionalfoodsmod.rice_seeds": "Rice Seeds",
+  "item.additionalfoodsmod.strawberry_seeds": "Strawberry Seeds",
+  "item.additionalfoodsmod.tomato_seeds": "Tomato Seeds",
+
   "creativetab.additional_food": "Additional Foods",
 
   "block.additionalfoodsmod.rice_block": "Block of Rice"
