@@ -39,7 +39,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.RICE)));
     public static final RegistryObject<Item> STRAWBERRIES = ITEMS.register("strawberries",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
-
+    public static final RegistryObject<Item> KNIFE = ITEMS.register("knife",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

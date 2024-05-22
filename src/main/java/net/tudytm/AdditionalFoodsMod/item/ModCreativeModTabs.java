@@ -31,7 +31,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PEAR.get());
                         pOutput.accept(ModItems.PICKLES.get());
                         pOutput.accept(ModItems.RICE.get());
-
+                        pOutput.accept(ModItems.KNIFE.get());
                         pOutput.accept(ModBlocks.RICE_BLOCK.get());
                     }))
                     .build());
