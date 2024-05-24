@@ -11,18 +11,20 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tudytm.AdditionalFoodsMod.AdditionalFoodsMod;
+import net.tudytm.AdditionalFoodsMod.block.custom.StrawberryCropBlock;
 import net.tudytm.AdditionalFoodsMod.item.ModItems;
 
 import java.util.function.Supplier;
-
-import static net.minecraft.world.item.Items.registerBlock;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, AdditionalFoodsMod.MOD_ID);
 
     public static final RegistryObject<Block> RICE_BLOCK = registerBlock("rice_block",
-            () -> new HayBlock(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK)));
+            () -> new HayBlock(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK).strength(0.5F)));
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

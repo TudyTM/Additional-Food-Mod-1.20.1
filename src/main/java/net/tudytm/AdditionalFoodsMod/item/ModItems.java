@@ -1,11 +1,13 @@
 package net.tudytm.AdditionalFoodsMod.item;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tudytm.AdditionalFoodsMod.AdditionalFoodsMod;
+import net.tudytm.AdditionalFoodsMod.block.ModBlocks;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -64,7 +66,7 @@ public class ModItems {
     public static final RegistryObject<Item> RICE_SEEDS = ITEMS.register("rice_seeds",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
-            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(),new Item.Properties()));
     public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
 
