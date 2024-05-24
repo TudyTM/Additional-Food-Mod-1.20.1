@@ -41,8 +41,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoods.RICE)));
     public static final RegistryObject<Item> STRAWBERRIES = ITEMS.register("strawberries",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+
     public static final RegistryObject<Item> KNIFE = ITEMS.register("knife",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
+
     public static final RegistryObject<Item> AVOCADO_TREE_SAPPLING = ITEMS.register("avocado_tree_sappling",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRIES)));
     public static final RegistryObject<Item> BELL_PEPPER_SEEDS = ITEMS.register("bell_pepper_seeds",

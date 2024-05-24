@@ -31,7 +31,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.PEAR.get());
                         pOutput.accept(ModItems.PICKLES.get());
                         pOutput.accept(ModItems.RICE.get());
+
                         pOutput.accept(ModItems.KNIFE.get());
+
                         pOutput.accept(ModItems.AVOCADO_TREE_SAPPLING.get());
                         pOutput.accept(ModItems.BELL_PEPPER_SEEDS.get());
                         pOutput.accept(ModItems.CUCUMBER_SEEDS.get());
@@ -45,6 +47,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RICE_SEEDS.get());
                         pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
                         pOutput.accept(ModItems.TOMATO_SEEDS.get());
+
                         pOutput.accept(ModBlocks.RICE_BLOCK.get());
 
                     }))
