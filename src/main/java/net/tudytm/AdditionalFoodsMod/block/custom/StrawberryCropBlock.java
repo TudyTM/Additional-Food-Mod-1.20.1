@@ -18,7 +18,7 @@ public class StrawberryCropBlock extends CropBlock {
     }
 
     @Override
-    protected ItemLike getBaseSeedId() {
+    public ItemLike getBaseSeedId() {
         return ModItems.STRAWBERRY_SEEDS.get();
     }
 
