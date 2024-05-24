@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "additionalfoodsmod:item/avocado_tree_sappling"
-  }
-}
