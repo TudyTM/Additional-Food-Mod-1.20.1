@@ -1,0 +1,4 @@
+// 1.20.1	2024-05-25T11:54:56.8936014	Global Loot Modifiers : additionalfoodsmod
+c6feef916c26cbd7863d0a04aacef45c485c5887 data/additionalfoodsmod/loot_modifiers/bell_pepper_seeds_from_grass.json
+b30c44f4dc2502afec1dba37550535e44278f682 data/additionalfoodsmod/loot_modifiers/strawberry_seeds_from_grass.json
+fa111e3fdb4ed68fce9214bc378252e370905991 data/forge/loot_modifiers/global_loot_modifiers.json

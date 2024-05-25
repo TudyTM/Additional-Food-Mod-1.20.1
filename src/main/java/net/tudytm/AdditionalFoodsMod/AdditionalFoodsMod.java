@@ -16,6 +16,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.tudytm.AdditionalFoodsMod.block.ModBlocks;
 import net.tudytm.AdditionalFoodsMod.item.ModCreativeModTabs;
 import net.tudytm.AdditionalFoodsMod.item.ModItems;
+import net.tudytm.AdditionalFoodsMod.loot.ModLootModifiers;
 import org.slf4j.Logger;
 
 @Mod(AdditionalFoodsMod.MOD_ID)
@@ -37,6 +38,8 @@ public class AdditionalFoodsMod {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+
+        ModLootModifiers.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

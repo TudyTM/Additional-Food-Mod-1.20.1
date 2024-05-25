@@ -27,6 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ONION);
         simpleItem(ModItems.ORANGE);
         simpleItem(ModItems.PEAR);
+        simpleItem(ModItems.PEACH);
         simpleItem(ModItems.PICKLES);
         simpleItem(ModItems.RICE);
         simpleItem(ModItems.STRAWBERRY);

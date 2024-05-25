@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-25T08:58:52.8167197	Item Models: additionalfoodsmod
+// 1.20.1	2024-05-25T09:37:28.2784232	Item Models: additionalfoodsmod
 de5513273fcf0a5dffa76529b33dc89a9b2d6bde assets/additionalfoodsmod/models/item/avocado.json
 2d4948c2d3fe786e23b18803f34f509e6f945160 assets/additionalfoodsmod/models/item/bell_pepper.json
 105ddc5e029cce89a3c81580665c073283a0a0fb assets/additionalfoodsmod/models/item/bell_pepper_seeds.json
@@ -7,6 +7,7 @@ ce326261b2493c40c30f593b2d3af5a74928bbe2 assets/additionalfoodsmod/models/item/c
 953dbd239f521cf55fb9fdc9a027e1df5da18b1d assets/additionalfoodsmod/models/item/lemon.json
 823181734c106d8932d881cac42d2480f3273f72 assets/additionalfoodsmod/models/item/onion.json
 ee72fa6dd1add7e80caf85f8c8fb69b71edbe182 assets/additionalfoodsmod/models/item/orange.json
+70c045cbafdb40941a392ac0cfe979fa7a66ef59 assets/additionalfoodsmod/models/item/peach.json
 e46e2a2410bf371d04f1c389cd0c579040c9b6b8 assets/additionalfoodsmod/models/item/pear.json
 8ac855c4cfe849866e353a0c04be70b020f0363b assets/additionalfoodsmod/models/item/pickles.json
 c315d41ec48c3a005a8c21a7c7b27e3b3b7bd7fa assets/additionalfoodsmod/models/item/rice.json
