@@ -11,9 +11,9 @@
   "item.additionalfoodsmod.pear": "Pear",
   "item.additionalfoodsmod.pickles": "Pickles",
   "item.additionalfoodsmod.rice": "Rice",
-  "item.additionalfoodsmod.strawberries": "Strawberries",
-  "item.additionalfoodsmod.knife": "Knife",
+  "item.additionalfoodsmod.strawberry": "Strawberry",
   "item.additionalfoodsmod.tomato": "Tomato",
+
   "item.additionalfoodsmod.avocado_tree_sappling": "Avocado Tree Sappling",
   "item.additionalfoodsmod.bell_pepper_seeds": "Bell Pepper Seeds",
   "item.additionalfoodsmod.cucumber_seeds": "Cucumber Seeds",
@@ -27,6 +27,8 @@
   "item.additionalfoodsmod.rice_seeds": "Rice Seeds",
   "item.additionalfoodsmod.strawberry_seeds": "Strawberry Seeds",
   "item.additionalfoodsmod.tomato_seeds": "Tomato Seeds",
+
+  "item.additionalfoodsmod.knife": "Knife",
 
   "creativetab.additional_food": "Additional Foods",
 
