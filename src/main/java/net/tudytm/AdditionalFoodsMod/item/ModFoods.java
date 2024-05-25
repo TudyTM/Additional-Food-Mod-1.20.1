@@ -16,7 +16,6 @@ public class ModFoods {
     public static final FoodProperties PEAR = new FoodProperties.Builder().nutrition(1).saturationMod(0.2f).build();
     public static final FoodProperties PICKLES = new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).build();
     public static final FoodProperties RICE = new FoodProperties.Builder().nutrition(1).saturationMod(0.1f).build();
-    public static final FoodProperties STRAWBERRIES = new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build();
+    public static final FoodProperties STRAWBERRY = new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build();
     public static final FoodProperties TOMATO = new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build();
-
 }

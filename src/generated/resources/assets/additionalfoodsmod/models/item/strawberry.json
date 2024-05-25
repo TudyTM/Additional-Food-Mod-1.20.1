@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "additionalfoodsmod:item/strawberries"
+    "layer0": "additionalfoodsmod:item/strawberry"
   }
 }

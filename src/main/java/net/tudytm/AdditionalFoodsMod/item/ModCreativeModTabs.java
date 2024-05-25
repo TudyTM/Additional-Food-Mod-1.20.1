@@ -15,10 +15,10 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, AdditionalFoodsMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ADDITIONAL_FOOD = CREATIVE_MODE_TABS.register("additional_food",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STRAWBERRIES.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STRAWBERRY.get()))
                     .title(Component.translatable("creativetab.additional_food"))
                     .displayItems(((pParameters, pOutput) ->{
-                        pOutput.accept(ModItems.STRAWBERRIES.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.TOMATO.get());
                         pOutput.accept(ModItems.AVOCADO.get());
                         pOutput.accept(ModItems.BELL_PEPPER.get());
