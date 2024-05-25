@@ -20,6 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.AVOCADO);
         simpleItem(ModItems.BELL_PEPPER);
+        simpleItem(ModItems.BELL_PEPPER_SEEDS);
         simpleItem(ModItems.CUCUMBER);
         simpleItem(ModItems.GARLIC);
         simpleItem(ModItems.LEMON);

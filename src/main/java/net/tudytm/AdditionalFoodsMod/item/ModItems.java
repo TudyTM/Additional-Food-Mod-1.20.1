@@ -47,8 +47,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> AVOCADO_TREE_SAPPLING = ITEMS.register("avocado_tree_sappling",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BELL_PEPPER_SEEDS = ITEMS.register("bell_pepper_seeds",
-            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> CUCUMBER_SEEDS = ITEMS.register("cucumber_seeds",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GARLIC_SEEDS = ITEMS.register("garlic_seeds",
@@ -68,8 +67,14 @@ public class ModItems {
     public static final RegistryObject<Item> RICE_SEEDS = ITEMS.register("rice_seeds",
             () -> new Item(new Item.Properties()));
 
+
+
+    public static final RegistryObject<Item> BELL_PEPPER_SEEDS = ITEMS.register("bell_pepper_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.BELL_PEPPER_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(),new Item.Properties()));
+
+
 
     public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
             () -> new Item(new Item.Properties()));

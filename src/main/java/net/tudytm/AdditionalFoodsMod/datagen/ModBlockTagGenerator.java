@@ -20,6 +20,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(ModBlocks.RICE_BLOCK.get())
-                .add(ModBlocks.STRAWBERRY_CROP.get());
+                .add(ModBlocks.STRAWBERRY_CROP.get())
+                .add(ModBlocks.BELL_PEPPER_CROP.get());
     }
 }

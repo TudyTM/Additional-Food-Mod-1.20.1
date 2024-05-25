@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tudytm.AdditionalFoodsMod.AdditionalFoodsMod;
+import net.tudytm.AdditionalFoodsMod.block.custom.BellPepperCropBlock;
 import net.tudytm.AdditionalFoodsMod.block.custom.StrawberryCropBlock;
 import net.tudytm.AdditionalFoodsMod.item.ModItems;
 
@@ -24,6 +25,8 @@ public class ModBlocks {
             () -> new HayBlock(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK).strength(0.5F)));
     public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
             () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
+    public static final RegistryObject<Block> BELL_PEPPER_CROP = BLOCKS.register("bell_pepper_crop",
+            () -> new BellPepperCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noCollission().noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

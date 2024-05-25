@@ -1,6 +1,7 @@
-// 1.20.1	2024-05-25T07:59:57.4687185	Item Models: additionalfoodsmod
+// 1.20.1	2024-05-25T08:58:52.8167197	Item Models: additionalfoodsmod
 de5513273fcf0a5dffa76529b33dc89a9b2d6bde assets/additionalfoodsmod/models/item/avocado.json
 2d4948c2d3fe786e23b18803f34f509e6f945160 assets/additionalfoodsmod/models/item/bell_pepper.json
+105ddc5e029cce89a3c81580665c073283a0a0fb assets/additionalfoodsmod/models/item/bell_pepper_seeds.json
 ce326261b2493c40c30f593b2d3af5a74928bbe2 assets/additionalfoodsmod/models/item/cucumber.json
 4f4394f53b016833408adc32623b98c6a3a44cc9 assets/additionalfoodsmod/models/item/garlic.json
 953dbd239f521cf55fb9fdc9a027e1df5da18b1d assets/additionalfoodsmod/models/item/lemon.json
