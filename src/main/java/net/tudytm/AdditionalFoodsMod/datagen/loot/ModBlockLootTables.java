@@ -37,8 +37,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.BELL_PEPPER_CROP.get(), createCropDrops(ModBlocks.BELL_PEPPER_CROP.get(), ModItems.BELL_PEPPER.get(),
                 ModItems.BELL_PEPPER_SEEDS.get(), lootitemcondition$builder1));
-    }
 
+        this.add(ModBlocks.AVOCADO_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RICE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES)); // TODO: CHANGE TO SAPPLING
+        this.add(ModBlocks.LEMON_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RICE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.add(ModBlocks.ORANGE_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RICE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.add(ModBlocks.PEACH_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RICE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+        this.add(ModBlocks.PEAR_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.RICE_BLOCK.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+    }
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator;

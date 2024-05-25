@@ -1,4 +1,9 @@
-// 1.20.1	2024-05-25T08:58:52.8097383	Loot Tables
+// 1.20.1	2024-05-25T16:02:47.5818814	Loot Tables
+8335167023ee79ef574ae987bd5d3cea41bd8ff3 data/additionalfoodsmod/loot_tables/blocks/avocado_leaves.json
 f8f0ec88f69c8e97069b75ede1ecf45d35b9d641 data/additionalfoodsmod/loot_tables/blocks/bell_pepper_crop.json
+39c735657c8abedd19c638483fcdd67518cd35ca data/additionalfoodsmod/loot_tables/blocks/lemon_leaves.json
+a377dbe96c106dfee327a87340ce31f58e108a78 data/additionalfoodsmod/loot_tables/blocks/orange_leaves.json
+a2c4014f1c9ef0c8d5b79bf5beb76f9d606e5293 data/additionalfoodsmod/loot_tables/blocks/peach_leaves.json
+07daada66c23f7d9cbf5204a2376aec93e43cbd9 data/additionalfoodsmod/loot_tables/blocks/pear_leaves.json
 73076a43bc5192f3f17b78ac9ba5e7e555ed84e7 data/additionalfoodsmod/loot_tables/blocks/rice_block.json
 e9957a1386988d798983af0dca4e1d97cedff84d data/additionalfoodsmod/loot_tables/blocks/strawberry_crop.json

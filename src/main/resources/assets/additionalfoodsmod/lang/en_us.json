@@ -32,5 +32,12 @@
 
   "creativetab.additional_food": "Additional Foods",
 
-  "block.additionalfoodsmod.rice_block": "Block of Rice"
+  "block.additionalfoodsmod.rice_block": "Block of Rice",
+
+  "block.additionalfoodsmod.lemon_leaves": "Lemon Leaves",
+  "block.additionalfoodsmod.avocado_leaves": "Avocado Leaves",
+  "block.additionalfoodsmod.orange_leaves": "Orange Leaves",
+  "block.additionalfoodsmod.peach_leaves": "Peach Leaves",
+  "block.additionalfoodsmod.pear_leaves": "Pear Leaves"
+
 }

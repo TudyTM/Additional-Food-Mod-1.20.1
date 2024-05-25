@@ -8,6 +8,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tudytm.AdditionalFoodsMod.AdditionalFoodsMod;
 import net.tudytm.AdditionalFoodsMod.block.ModBlocks;
@@ -27,6 +28,23 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         makeStrawberryCrop((CropBlock) ModBlocks.STRAWBERRY_CROP.get(), "strawberry_stage", "strawberry_stage");
         makeBellPepperCrop((CropBlock) ModBlocks.BELL_PEPPER_CROP.get(), "bell_pepper_stage", "bell_pepper_stage");
+
+
+
+        leavesBlock(ModBlocks.AVOCADO_LEAVES);
+        leavesBlock(ModBlocks.LEMON_LEAVES);
+        leavesBlock(ModBlocks.ORANGE_LEAVES);
+        leavesBlock(ModBlocks.PEACH_LEAVES);
+        leavesBlock(ModBlocks.PEAR_LEAVES);
+
+
+    }
+
+
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), new ResourceLocation("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

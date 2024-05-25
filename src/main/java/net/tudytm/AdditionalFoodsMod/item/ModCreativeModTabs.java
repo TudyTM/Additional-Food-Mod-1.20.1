@@ -50,6 +50,13 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.RICE_BLOCK.get());
 
+
+                        pOutput.accept(ModBlocks.LEMON_LEAVES.get());
+                        pOutput.accept(ModBlocks.AVOCADO_LEAVES.get());
+                        pOutput.accept(ModBlocks.ORANGE_LEAVES.get());
+                        pOutput.accept(ModBlocks.PEACH_LEAVES.get());
+                        pOutput.accept(ModBlocks.PEAR_LEAVES.get());
+
                     }))
                     .build());
 
